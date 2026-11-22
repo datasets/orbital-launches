@@ -1,6 +1,6 @@
 # Fact for checking
 
-Claim (README "What stands out"): More than half of all the satellites and spacecraft ever put into orbit went up in the last five years. Of the 27,376 payloads that reached orbit from 1957 to the end of 2025, 14,722 (53.8%) were launched in 2021 to 2025. 2025 alone put 4,572 payloads into orbit, more than in the first 28 years of the space age combined (4,493 from 1957 to 1984).
+Claim (README "What stands out"): More than half of all the satellites and spacecraft ever put into orbit went up in 2021–2025. Of the 27,376 payloads that reached orbit from 1957 to the end of 2025, 14,722 (53.8%) were launched in 2021 to 2025. 2025 alone put 4,572 payloads into orbit, more than in the first 28 years of the space age combined (4,493 from 1957 to 1984).
 
 Numbers (from `data/orbital-launches-by-year.csv`, column `payloads_to_orbit`):
 
