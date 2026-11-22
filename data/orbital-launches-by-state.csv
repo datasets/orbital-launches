@@ -1,0 +1,425 @@
+year,state_code,state_name,attempts,successes,failures
+1957,SU,Soviet Union,2,2,0
+1957,US,United States,1,0,1
+1958,US,United States,23,7,16
+1958,SU,Soviet Union,5,1,4
+1959,US,United States,19,10,9
+1959,SU,Soviet Union,4,3,1
+1960,US,United States,29,16,13
+1960,SU,Soviet Union,9,3,6
+1961,US,United States,41,27,14
+1961,SU,Soviet Union,9,5,4
+1962,US,United States,59,52,7
+1962,SU,Soviet Union,22,15,7
+1963,US,United States,46,37,9
+1963,SU,Soviet Union,23,15,8
+1964,US,United States,64,56,8
+1964,SU,Soviet Union,36,29,7
+1965,US,United States,70,63,7
+1965,SU,Soviet Union,53,46,7
+1965,F,France,1,1,0
+1966,US,United States,78,72,6
+1966,SU,Soviet Union,51,42,9
+1966,J,Japan,2,0,2
+1966,F,France,1,1,0
+1967,SU,Soviet Union,74,64,10
+1967,US,United States,61,58,3
+1967,F,France,2,2,0
+1967,I,Italy,1,1,0
+1967,J,Japan,1,0,1
+1968,SU,Soviet Union,79,74,5
+1968,US,United States,48,44,4
+1968,I-ELDO,European Launcher Development Organisation,1,0,1
+1969,SU,Soviet Union,82,68,14
+1969,US,United States,41,39,2
+1969,I-ELDO,European Launcher Development Organisation,1,0,1
+1969,J,Japan,1,0,1
+1970,SU,Soviet Union,87,80,7
+1970,US,United States,29,28,1
+1970,F,France,2,2,0
+1970,J,Japan,2,1,1
+1970,CN,China,1,1,0
+1970,I,Italy,1,1,0
+1970,I-ELDO,European Launcher Development Organisation,1,0,1
+1970,UK,United Kingdom,1,0,1
+1971,SU,Soviet Union,91,82,9
+1971,US,United States,33,29,4
+1971,F,France,2,1,1
+1971,I,Italy,2,2,0
+1971,J,Japan,2,2,0
+1971,CN,China,1,1,0
+1971,I-ELDO,European Launcher Development Organisation,1,0,1
+1971,UK,United Kingdom,1,1,0
+1972,SU,Soviet Union,79,73,6
+1972,US,United States,32,30,2
+1972,I,Italy,1,1,0
+1972,J,Japan,1,1,0
+1973,SU,Soviet Union,89,86,3
+1973,US,United States,25,23,2
+1973,CN,China,1,0,1
+1973,F,France,1,0,1
+1974,SU,Soviet Union,85,81,4
+1974,US,United States,23,21,2
+1974,CN,China,2,0,2
+1974,I,Italy,2,2,0
+1974,J,Japan,1,1,0
+1975,SU,Soviet Union,93,89,4
+1975,US,United States,30,27,3
+1975,CN,China,3,3,0
+1975,F,France,3,3,0
+1975,J,Japan,2,2,0
+1975,I,Italy,1,1,0
+1976,SU,Soviet Union,100,97,3
+1976,US,United States,26,26,0
+1976,CN,China,3,2,1
+1976,J,Japan,2,1,1
+1977,SU,Soviet Union,102,98,4
+1977,US,United States,26,23,3
+1977,J,Japan,2,2,0
+1978,SU,Soviet Union,91,87,4
+1978,US,United States,33,32,1
+1978,J,Japan,3,3,0
+1978,CN,China,1,1,0
+1979,SU,Soviet Union,89,87,2
+1979,US,United States,16,16,0
+1979,J,Japan,2,1,1
+1979,CN,China,1,0,1
+1979,I-ESA,European Space Agency,1,1,0
+1979,IN,India,1,0,1
+1980,SU,Soviet Union,89,87,2
+1980,US,United States,15,13,2
+1980,J,Japan,2,2,0
+1980,I-ESA,European Space Agency,1,0,1
+1980,IN,India,1,1,0
+1981,SU,Soviet Union,100,98,2
+1981,US,United States,19,17,2
+1981,J,Japan,3,3,0
+1981,I-ESA,European Space Agency,2,2,0
+1981,CN,China,1,1,0
+1981,IN,India,1,1,0
+1982,SU,Soviet Union,108,99,9
+1982,US,United States,18,18,0
+1982,CN,China,1,1,0
+1982,I-ESA,European Space Agency,1,0,1
+1982,J,Japan,1,1,0
+1983,SU,Soviet Union,100,98,2
+1983,US,United States,22,22,0
+1983,J,Japan,3,3,0
+1983,I-ESA,European Space Agency,2,2,0
+1983,CN,China,1,1,0
+1983,IN,India,1,1,0
+1984,SU,Soviet Union,97,96,1
+1984,US,United States,22,21,1
+1984,CN,China,3,2,1
+1984,F,France,3,3,0
+1984,J,Japan,3,3,0
+1984,I-ESA,European Space Agency,1,1,0
+1985,SU,Soviet Union,100,97,3
+1985,US,United States,18,17,1
+1985,F,France,4,3,1
+1985,J,Japan,2,2,0
+1985,CN,China,1,1,0
+1986,SU,Soviet Union,94,90,4
+1986,US,United States,9,6,3
+1986,F,France,3,2,1
+1986,CN,China,2,2,0
+1986,J,Japan,2,2,0
+1987,SU,Soviet Union,97,93,4
+1987,US,United States,9,8,1
+1987,J,Japan,3,3,0
+1987,CN,China,2,2,0
+1987,F,France,2,2,0
+1987,IN,India,1,0,1
+1988,SU,Soviet Union,94,89,5
+1988,US,United States,11,11,0
+1988,F,France,7,7,0
+1988,CN,China,4,4,0
+1988,J,Japan,2,2,0
+1988,I,Italy,1,1,0
+1988,IL,Israel,1,1,0
+1988,IN,India,1,0,1
+1989,SU,Soviet Union,75,74,1
+1989,US,United States,18,18,0
+1989,F,France,7,7,0
+1989,J,Japan,2,2,0
+1990,SU,Soviet Union,79,74,5
+1990,US,United States,27,26,1
+1990,F,France,6,5,1
+1990,CN,China,5,5,0
+1990,J,Japan,3,3,0
+1990,IL,Israel,1,1,0
+1991,SU,Soviet Union,61,59,2
+1991,US,United States,19,17,2
+1991,F,France,8,8,0
+1991,J,Japan,2,2,0
+1991,CN,China,1,0,1
+1992,RU,Russia,55,54,1
+1992,US,United States,29,28,1
+1992,F,France,7,7,0
+1992,CN,China,4,3,1
+1992,IN,India,1,1,0
+1992,J,Japan,1,1,0
+1993,RU,Russia,48,46,2
+1993,US,United States,25,22,3
+1993,F,France,7,7,0
+1993,CN,China,1,1,0
+1993,IN,India,1,0,1
+1993,J,Japan,1,1,0
+1994,RU,Russia,49,48,1
+1994,US,United States,27,26,1
+1994,F,France,8,6,2
+1994,CN,China,5,5,0
+1994,IN,India,2,2,0
+1994,J,Japan,2,2,0
+1995,RU,Russia,33,31,2
+1995,US,United States,30,27,3
+1995,F,France,11,11,0
+1995,CN,China,3,2,1
+1995,J,Japan,2,1,1
+1995,IL,Israel,1,1,0
+1996,US,United States,33,32,1
+1996,RU,Russia,27,25,2
+1996,F,France,10,10,0
+1996,CN,China,4,2,2
+1996,I-ESA,European Space Agency,1,0,1
+1996,IN,India,1,1,0
+1996,J,Japan,1,1,0
+1997,US,United States,38,37,1
+1997,RU,Russia,29,27,2
+1997,F,France,11,11,0
+1997,CN,China,6,6,0
+1997,J,Japan,2,2,0
+1997,BR,Brazil,1,0,1
+1997,I-ESA,European Space Agency,1,1,0
+1997,IN,India,1,1,0
+1998,US,United States,36,34,2
+1998,RU,Russia,25,24,1
+1998,F,France,11,11,0
+1998,CN,China,6,6,0
+1998,J,Japan,2,1,1
+1998,IL,Israel,1,0,1
+1998,KP,North Korea,1,0,1
+1999,US,United States,31,27,4
+1999,RU,Russia,22,20,2
+1999,F,France,16,16,0
+1999,CN,China,4,4,0
+1999,CYM,Cayman Islands,2,2,0
+1999,BR,Brazil,1,0,1
+1999,IN,India,1,1,0
+1999,J,Japan,1,0,1
+2000,RU,Russia,32,30,2
+2000,US,United States,29,29,0
+2000,F,France,16,16,0
+2000,CN,China,5,5,0
+2000,CYM,Cayman Islands,2,1,1
+2000,J,Japan,1,0,1
+2001,US,United States,24,23,1
+2001,RU,Russia,23,23,0
+2001,F,France,8,7,1
+2001,IN,India,2,2,0
+2001,CN,China,1,1,0
+2001,J,Japan,1,1,0
+2002,RU,Russia,25,23,2
+2002,US,United States,18,18,0
+2002,F,France,12,11,1
+2002,CN,China,5,4,1
+2002,J,Japan,3,3,0
+2002,IL,Israel,1,1,0
+2002,IN,India,1,1,0
+2003,US,United States,26,26,0
+2003,RU,Russia,19,19,0
+2003,CN,China,7,6,1
+2003,F,France,6,6,0
+2003,J,Japan,3,2,1
+2003,IN,India,2,2,0
+2004,RU,Russia,22,21,1
+2004,US,United States,19,18,1
+2004,CN,China,8,8,0
+2004,F,France,3,3,0
+2004,IL,Israel,1,0,1
+2004,IN,India,1,1,0
+2005,RU,Russia,23,20,3
+2005,US,United States,16,16,0
+2005,CN,China,6,5,1
+2005,F,France,6,6,0
+2005,I-ESA,European Space Agency,2,2,0
+2005,J,Japan,2,2,0
+2005,IN,India,1,1,0
+2006,RU,Russia,23,21,2
+2006,US,United States,23,22,1
+2006,F,France,7,7,0
+2006,CN,China,6,6,0
+2006,J,Japan,6,6,0
+2006,IN,India,1,0,1
+2007,RU,Russia,23,22,1
+2007,US,United States,20,18,2
+2007,CN,China,10,10,0
+2007,F,France,9,9,0
+2007,IN,India,3,3,0
+2007,J,Japan,2,2,0
+2007,IL,Israel,1,1,0
+2008,RU,Russia,26,25,1
+2008,US,United States,20,19,1
+2008,CN,China,11,11,0
+2008,F,France,7,7,0
+2008,IN,India,3,3,0
+2008,IR,Iran,1,0,1
+2008,J,Japan,1,1,0
+2009,RU,Russia,32,32,0
+2009,US,United States,25,24,1
+2009,F,France,7,7,0
+2009,CN,China,6,5,1
+2009,J,Japan,3,3,0
+2009,IN,India,2,2,0
+2009,IR,Iran,1,1,0
+2009,KP,North Korea,1,0,1
+2009,KR,South Korea,1,0,1
+2010,RU,Russia,30,29,1
+2010,CN,China,15,15,0
+2010,US,United States,15,15,0
+2010,F,France,7,7,0
+2010,IN,India,3,1,2
+2010,J,Japan,2,2,0
+2010,IL,Israel,1,1,0
+2010,KR,South Korea,1,0,1
+2011,RU,Russia,30,26,4
+2011,CN,China,19,18,1
+2011,US,United States,19,18,1
+2011,F,France,9,9,0
+2011,IN,India,3,3,0
+2011,J,Japan,3,3,0
+2011,IR,Iran,1,1,0
+2012,RU,Russia,23,21,2
+2012,CN,China,19,19,0
+2012,US,United States,16,16,0
+2012,F,France,10,10,0
+2012,IR,Iran,3,1,2
+2012,IN,India,2,2,0
+2012,J,Japan,2,2,0
+2012,KP,North Korea,2,1,1
+2012,I-ESA,European Space Agency,1,1,0
+2013,RU,Russia,31,30,1
+2013,US,United States,20,19,1
+2013,CN,China,15,14,1
+2013,F,France,7,7,0
+2013,IN,India,3,3,0
+2013,J,Japan,3,3,0
+2013,I-ESA,European Space Agency,1,1,0
+2013,KR,South Korea,1,1,0
+2014,RU,Russia,32,31,1
+2014,US,United States,24,23,1
+2014,CN,China,16,16,0
+2014,F,France,10,9,1
+2014,IN,India,4,4,0
+2014,J,Japan,4,4,0
+2014,I-ESA,European Space Agency,1,1,0
+2014,IL,Israel,1,1,0
+2015,RU,Russia,26,23,3
+2015,US,United States,20,18,2
+2015,CN,China,19,19,0
+2015,F,France,9,9,0
+2015,IN,India,5,5,0
+2015,J,Japan,4,4,0
+2015,I-ESA,European Space Agency,3,3,0
+2015,IR,Iran,1,1,0
+2016,CN,China,22,21,1
+2016,US,United States,22,22,0
+2016,RU,Russia,17,16,1
+2016,F,France,11,11,0
+2016,IN,India,7,7,0
+2016,J,Japan,4,4,0
+2016,IL,Israel,1,1,0
+2016,KP,North Korea,1,1,0
+2017,US,United States,29,29,0
+2017,RU,Russia,19,18,1
+2017,CN,China,18,16,2
+2017,F,France,11,11,0
+2017,J,Japan,7,6,1
+2017,IN,India,5,4,1
+2017,NZ,New Zealand,1,0,1
+2018,CN,China,39,38,1
+2018,US,United States,31,31,0
+2018,RU,Russia,17,16,1
+2018,F,France,11,11,0
+2018,IN,India,7,7,0
+2018,J,Japan,6,6,0
+2018,NZ,New Zealand,3,3,0
+2019,CN,China,34,32,2
+2019,RU,Russia,22,22,0
+2019,US,United States,21,21,0
+2019,F,France,9,8,1
+2019,IN,India,6,6,0
+2019,NZ,New Zealand,6,6,0
+2019,IR,Iran,2,0,2
+2019,J,Japan,2,2,0
+2020,CN,China,39,35,4
+2020,US,United States,37,34,3
+2020,RU,Russia,12,12,0
+2020,F,France,10,9,1
+2020,NZ,New Zealand,7,6,1
+2020,J,Japan,4,4,0
+2020,IN,India,2,2,0
+2020,IR,Iran,2,1,1
+2020,IL,Israel,1,1,0
+2021,CN,China,56,53,3
+2021,US,United States,45,43,2
+2021,RU,Russia,16,15,1
+2021,F,France,15,15,0
+2021,NZ,New Zealand,6,5,1
+2021,J,Japan,3,3,0
+2021,IN,India,2,1,1
+2021,IR,Iran,2,0,2
+2021,KR,South Korea,1,0,1
+2022,US,United States,78,76,2
+2022,CN,China,64,62,2
+2022,RU,Russia,21,21,0
+2022,NZ,New Zealand,9,9,0
+2022,F,France,5,4,1
+2022,IN,India,5,4,1
+2022,I-ESA,European Space Agency,1,1,0
+2022,IR,Iran,1,1,0
+2022,J,Japan,1,0,1
+2022,KR,South Korea,1,1,0
+2023,US,United States,107,103,4
+2023,CN,China,67,66,1
+2023,RU,Russia,19,19,0
+2023,IN,India,7,7,0
+2023,NZ,New Zealand,7,6,1
+2023,F,France,3,3,0
+2023,J,Japan,3,2,1
+2023,KP,North Korea,3,1,2
+2023,IR,Iran,2,1,1
+2023,KR,South Korea,2,2,0
+2023,IL,Israel,1,1,0
+2024,US,United States,144,143,1
+2024,CN,China,68,66,2
+2024,RU,Russia,17,17,0
+2024,NZ,New Zealand,13,13,0
+2024,J,Japan,7,5,2
+2024,IN,India,5,5,0
+2024,IR,Iran,4,4,0
+2024,F,France,2,2,0
+2024,I-ESA,European Space Agency,1,1,0
+2024,KP,North Korea,1,0,1
+2025,US,United States,181,178,3
+2025,CN,China,92,90,2
+2025,NZ,New Zealand,17,17,0
+2025,RU,Russia,17,17,0
+2025,F,France,7,7,0
+2025,IN,India,5,4,1
+2025,J,Japan,4,3,1
+2025,KR,South Korea,2,1,1
+2025,AU,Australia,1,0,1
+2025,D,Germany,1,0,1
+2025,IL,Israel,1,1,0
+2025,IR,Iran,1,0,1
+2026,US,United States,139,137,2
+2026,CN,China,81,77,4
+2026,NZ,New Zealand,18,18,0
+2026,RU,Russia,15,15,0
+2026,F,France,4,4,0
+2026,IN,India,4,3,1
+2026,J,Japan,4,3,1
+2026,I,Italy,2,2,0
+2026,D,Germany,1,1,0
+2026,KR,South Korea,1,1,0

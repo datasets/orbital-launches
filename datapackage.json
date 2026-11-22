@@ -1,0 +1,143 @@
+{
+  "name": "orbital-launches",
+  "title": "Orbital Launches and Payloads per Year, 1957 to 2026",
+  "description": "Orbital launch attempts per year since Sputnik in 1957, with successes and failures, by launching state, plus the number of payloads (satellites and spacecraft) that reached orbit each year. Aggregated from Jonathan McDowell's General Catalog of Artificial Space Objects (GCAT). 2026 is partial, to 19 November 2026.",
+  "status": "structured",
+  "version": "1.0.0",
+  "upkeep": {
+    "mode": "frozen",
+    "snapshot": "2026-11-22"
+  },
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "McDowell, Jonathan C., General Catalog of Artificial Space Objects (GCAT), Release 1.8.9, data update 2026 Nov 19",
+      "path": "https://planet4589.org/space/gcat/"
+    },
+    {
+      "title": "GCAT Orbital Launch Log (TSV), the file this dataset is built from",
+      "path": "https://planet4589.org/space/gcat/tsv/derived/launchlog.tsv"
+    }
+  ],
+  "keywords": [
+    "space",
+    "rockets",
+    "launches",
+    "satellites",
+    "spaceflight",
+    "GCAT"
+  ],
+  "resources": [
+    {
+      "name": "orbital-launches-by-year",
+      "title": "Orbital launch attempts and payloads per year",
+      "path": "data/orbital-launches-by-year.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "year",
+            "description": "Calendar year of launch (UTC). 2026 is partial, to 19 November."
+          },
+          {
+            "name": "attempts",
+            "type": "integer",
+            "description": "Orbital launch attempts from Earth (GCAT launch category O or D, outcome success or failure). Excludes pad explosions and aborts, which never left the pad."
+          },
+          {
+            "name": "successes",
+            "type": "integer",
+            "description": "Attempts GCAT scores as successes (launch success fraction of 0.75 or more)."
+          },
+          {
+            "name": "failures",
+            "type": "integer",
+            "description": "Attempts GCAT scores as failures (success fraction below 0.75)."
+          },
+          {
+            "name": "payloads_to_orbit",
+            "type": "integer",
+            "description": "Payloads (satellites and spacecraft, not rocket stages or debris) carried on that year's launch attempts that reached Earth orbit or beyond, i.e. are not in GCAT's failed-to-orbit catalog."
+          }
+        ],
+        "primaryKey": [
+          "year"
+        ]
+      }
+    },
+    {
+      "name": "orbital-launches-by-state",
+      "title": "Orbital launch attempts per year by launching state",
+      "path": "data/orbital-launches-by-state.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "year",
+            "description": "Calendar year of launch (UTC). 2026 is partial, to 19 November."
+          },
+          {
+            "name": "state_code",
+            "type": "string",
+            "description": "GCAT state code for the launch (its LVState field), e.g. US, SU (Soviet Union, to 1991), RU (Russia, from 1992), CN, F, I-ESA, NZ. This is GCAT's own assignment and does not always match the rocket's builder or launch site: Electron launches from New Zealand count as NZ, and most Ariane launches, plus Soyuz launches run by Arianespace or Starsem, count as F (France)."
+          },
+          {
+            "name": "state_name",
+            "type": "string",
+            "description": "Plain English name for the state code (added by this dataset)."
+          },
+          {
+            "name": "attempts",
+            "type": "integer",
+            "description": "Orbital launch attempts by this state in this year."
+          },
+          {
+            "name": "successes",
+            "type": "integer",
+            "description": "Attempts GCAT scores as successes."
+          },
+          {
+            "name": "failures",
+            "type": "integer",
+            "description": "Attempts GCAT scores as failures."
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "state_code"
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "launches-per-year",
+      "title": "Orbital launch attempts per year, 1957 to 2026 (2026 partial)",
+      "resources": [
+        "orbital-launches-by-year"
+      ],
+      "specType": "simple",
+      "spec": {
+        "type": "line",
+        "group": "year",
+        "series": [
+          "attempts",
+          "successes",
+          "failures"
+        ]
+      }
+    }
+  ]
+}
