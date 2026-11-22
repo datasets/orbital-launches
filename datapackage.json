@@ -1,7 +1,7 @@
 {
   "name": "orbital-launches",
   "title": "Orbital Launches and Payloads per Year, 1957 to 2026",
-  "description": "Orbital launch attempts per year since Sputnik in 1957, with successes and failures, by launching state, plus the number of payloads (satellites and spacecraft) that reached orbit each year. Aggregated from Jonathan McDowell's General Catalog of Artificial Space Objects (GCAT). 2026 is partial, to 19 November 2026.",
+  "description": "Orbital launch attempts per year since Sputnik in 1957, with successes and failures, by launching state, plus the number of payloads (satellites and spacecraft) that reached orbit each year. Aggregated from Jonathan McDowell's General Catalog of Artificial Space Objects (GCAT). 2026 is partial: data as of GCAT's 19 November 2026 update (latest launch listed: 15 November 2026).",
   "status": "structured",
   "version": "1.0.0",
   "upkeep": {
@@ -46,7 +46,7 @@
           {
             "name": "year",
             "type": "year",
-            "description": "Calendar year of launch (UTC). 2026 is partial, to 19 November."
+            "description": "Calendar year of launch (UTC). 2026 is partial (GCAT update of 19 November 2026)."
           },
           {
             "name": "attempts",
@@ -86,7 +86,7 @@
           {
             "name": "year",
             "type": "year",
-            "description": "Calendar year of launch (UTC). 2026 is partial, to 19 November."
+            "description": "Calendar year of launch (UTC). 2026 is partial (GCAT update of 19 November 2026)."
           },
           {
             "name": "state_code",
